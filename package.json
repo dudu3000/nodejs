@@ -1,0 +1,23 @@
+{
+  "name": "middle-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "dicomweb-client": "^0.8.2",
+    "dotenv": "^10.0.0",
+    "envfile": "^6.17.0",
+    "express": "^4.17.1",
+    "node-cron": "^3.0.0",
+    "node-libcurl": "^2.3.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
